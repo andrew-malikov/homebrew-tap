@@ -3,7 +3,7 @@ cask "ws" do
   name "ws"
   desc "Workspace everything"
   homepage "https://github.com/andrew-malikov/ws"
-  version "2026.03.28-2"
+  version "2026.03.28-3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ws" do
   on_macos do
     on_intel do
       url "https://github.com/andrew-malikov/workspace/releases/download/#{version}/ws_#{version}_darwin_amd64.tar.gz"
-      sha256 "42984a2e964717daba047bea4897314ac75da893833d0ee77c40a93116d88551"
+      sha256 "2bc6e87fa5e82457ba942f5fb44f31fe5e2bbec9e6ce16fdf9cc7a1826d3fab5"
     end
     on_arm do
       url "https://github.com/andrew-malikov/workspace/releases/download/#{version}/ws_#{version}_darwin_arm64.tar.gz"
-      sha256 "101a50105decdc480f9bc0a345f449f13d9eb0ff96878abcc37aba7148ab569c"
+      sha256 "b25d5ebe7c554110fc4f55a7a93387c8f6b330c9a30b62408330d9905134cce0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andrew-malikov/workspace/releases/download/#{version}/ws_#{version}_linux_amd64.tar.gz"
-      sha256 "e3cd842aaa10203105f95ecde0b29393a6fa853fb933b3578981b67fadbb8d6f"
+      sha256 "b233874541a3cc81ddb983ad6d49e7c367ea921086a7441c7d15f7b92cd580b6"
     end
     on_arm do
       url "https://github.com/andrew-malikov/workspace/releases/download/#{version}/ws_#{version}_linux_arm64.tar.gz"
-      sha256 "2a932b665c6f3749ab1bb0ebb0b71ac40e2a801030272fe465f59d8ef6e22d92"
+      sha256 "00213e7f7965836fcc9b7f03cfd6987a51b47893a1a7ebf12c7158eb180ff466"
     end
   end
 
